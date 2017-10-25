@@ -25,5 +25,12 @@ Define environments if needed
     "node": true
   }
 }
+```
 
+And maybe in your `package.json`:
+
+```json
+"scripts": {
+  "lint": "eslint src/**.js"
+}
 ```
