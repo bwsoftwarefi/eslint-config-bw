@@ -1,28 +1,26 @@
 {
-  "name": "eslint-config-bw",
+  "name": "@bwsoftwarefi/eslint-config-bw",
   "version": "1.0.0",
-  "description": "Eslint config for ES6+ & react (& react-native?). Extends airbnb.",
+  "description":
+    "Eslint config for ES6+ & react (& react-native?). Extends airbnb.",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/bwsoftwarefi/eslint-config-bw"
+    "url": "git+https://github.com/bwsoftwarefi/eslint-config-bw.git"
   },
   "bugs": {
     "url": "https://github.com/bwsoftwarefi/eslint-config-bw/issues"
   },
   "scripts": {
-    "test": "node test/test.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "node test/test.js"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "release": {
     "debug": false
   },
-  "author": "Mikko Pitkänen <mikko@bwsoftware.fi> <https://github.com/bwsoftwarefi>",
+  "author": "Mikko Pitkänen <mikko@bwsoftware.fi>",
   "license": "MIT",
   "keywords": [
     "eslint",
@@ -47,9 +45,9 @@
   "peerDependencies": {
     "eslint": ">=4.9.0"
   },
-  "devDependencies": {
-    "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.0.0",
-    "semantic-release": "8.2.0"
+  "devDependencies": {},
+  "homepage": "https://github.com/bwsoftwarefi/eslint-config-bw#readme",
+  "directories": {
+    "test": "test"
   }
 }
