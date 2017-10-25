@@ -4,7 +4,7 @@
 
 1. `npm install --save-dev eslint-config-bw eslint`
 
-1. Create .eslintrc file in the root directory
+1. Create `.eslintrc` file in the root directory of your project
 
 1. And paste this code
 
