@@ -39,7 +39,8 @@ module.exports = {
     "no-underscore-dangle": "off",
     "consistent-return": "off",
     "no-param-reassign": "off",
-    "function-paren-newline": "off"
+    "function-paren-newline": "off",
+    "object-curly-newline": "off"
   },
   globals: {
     describe: false,
