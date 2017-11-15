@@ -4,7 +4,7 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: "module"
   },
-  plugins: ["react", "import"],
+  plugins: ["react", "import", "ascii"],
   parser: "babel-eslint",
   rules: {
     "react/jsx-filename-extension": [
