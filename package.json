@@ -1,8 +1,7 @@
 {
   "name": "@bwsoftwarefi/eslint-config-bw",
-  "version": "1.1.2",
-  "description":
-    "Eslint config for ES6+ & react (& react-native?). Extends airbnb.",
+  "version": "1.2.0",
+  "description": "Eslint config for ES6+ & react (& react-native?). Extends airbnb.",
   "main": "index.js",
   "repository": {
     "url": "git+https://github.com/bwsoftwarefi/eslint-config-bw.git"
@@ -19,7 +18,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "release": {
     "debug": false
   },
