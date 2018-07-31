@@ -34,3 +34,9 @@ And maybe in your `package.json`:
   "lint": "eslint src/**.js"
 }
 ```
+
+## Rule Definitions (part of them)
+
+<https://github.com/yannickcr/eslint-plugin-react>
+<https://github.com/prettier/eslint-config-prettier/blob/master/index.js>
+<https://github.com/prettier/eslint-config-prettier/blob/master/react.js>

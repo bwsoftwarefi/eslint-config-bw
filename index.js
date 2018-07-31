@@ -40,7 +40,15 @@ module.exports = {
     "consistent-return": "off",
     "no-param-reassign": "off",
     "function-paren-newline": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-else-return": ["error", { allowElseIf: true }],
+    "operator-linebreak": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/destructuring-assignment": "off",
+    "operator-linebreak": "off",
+    indent: "off",
+    "indent-legacy": "off"
   },
   globals: {
     describe: false,
