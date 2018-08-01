@@ -24,6 +24,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
     "import/extensions": "off",
+    "import/order": "off",
     quotes: [
       "error",
       "double",
