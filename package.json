@@ -38,7 +38,7 @@
     "react eslint"
   ],
   "dependencies": {
-    "babel-eslint": "9.0.0-beta.3",
+    "babel-eslint": "8.2.2",
     "eslint": "4.19.1",
     "eslint-config-airbnb": "17.0.0",
     "eslint-plugin-ascii": "1.0.0",
