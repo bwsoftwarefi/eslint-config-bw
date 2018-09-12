@@ -50,7 +50,7 @@ module.exports = {
     "operator-linebreak": "off",
     "indent": "off",
     "indent-legacy": "off",
-    "template-curly-spacing": ["error", "never"]
+    "template-curly-spacing": "off"
   },
   globals: {
     describe: false,
