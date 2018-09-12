@@ -25,7 +25,7 @@ module.exports = {
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "import/order": "off",
-    quotes: [
+    "quotes": [
       "error",
       "double",
       {
@@ -48,8 +48,9 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/destructuring-assignment": "off",
     "operator-linebreak": "off",
-    indent: "off",
-    "indent-legacy": "off"
+    "indent": "off",
+    "indent-legacy": "off",
+    "template-curly-spacing": ["error", "never"]
   },
   globals: {
     describe: false,
