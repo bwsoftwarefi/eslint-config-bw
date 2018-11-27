@@ -16,7 +16,7 @@
     "echo-version": "echo $npm_package_version"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 10"
   },
   "files": [
     "index.js"
@@ -38,7 +38,7 @@
     "react eslint"
   ],
   "dependencies": {
-    "babel-eslint": "10.0.1",
+    "babel-eslint": "9.0.0",
     "eslint": "5.9.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-ascii": "1.0.0",
